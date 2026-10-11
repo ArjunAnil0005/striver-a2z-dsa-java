@@ -15,6 +15,8 @@ public class MoveZeroes1 {
                 nums[i]=0;
             }
 
+            //Time Complexity: O(n)
+            //Space Complexity: O(1)
         }
 
     public static void main(String[] args) {

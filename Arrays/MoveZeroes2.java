@@ -13,6 +13,8 @@ public class MoveZeroes2 {
                 j++;
             }
         }
+        //Time Complexity: O(n)
+        //Space Complexity: O(1)
     }
 
     public static void main(String[] args) {
