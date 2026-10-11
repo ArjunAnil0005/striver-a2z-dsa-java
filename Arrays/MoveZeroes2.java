@@ -3,6 +3,7 @@ public class MoveZeroes2 {
     public static void moveZeroes(int[] nums) {
         int j = 0;
 
+        // Move all non-zero elements to the front of the array
         for (int i = 0; i < nums.length; i++) {
             if (nums[i] != 0) {
                 int temp = nums[i];

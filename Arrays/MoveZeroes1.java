@@ -1,18 +1,21 @@
 public class MoveZeroes1 {
         public static void moveZeroes(int[] nums) {
-            int j=0;
+            int index=0;
 
-            for(int num:nums){
-                if(num!=0){
-                    nums[j]=num;
-                    j++;
+            // Move all non-zero elements to the front of the array
+            for(int num : nums){
+                if(num != 0){
+                    nums[index] = num;
+                    index++;
                 }
             }
 
-            for(int i=j;i<nums.length;i++){
+            // Fill the remaining positions with zeros
+            for(int i=index; i<nums.length; i++){
                 nums[i]=0;
             }
-    }
+
+        }
 
     public static void main(String[] args) {
         int[] nums = {0, 1, 0, 3, 12};
