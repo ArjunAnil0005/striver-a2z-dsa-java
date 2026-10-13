@@ -1,9 +1,7 @@
 package Basics;
 
-import java.util.Arrays;
-
 public class CheckPrime {
-    public static void CheckPrime(int nums) {
+    public static void CheckPrime2(int nums) {
         
         //Brute Force Approach
 
@@ -24,7 +22,7 @@ public class CheckPrime {
     public static void main(String[] args) {
         int nums = 5;
 
-        CheckPrime(nums);
+        CheckPrime2(nums);
 
     }
 }
