@@ -63,10 +63,17 @@ striver-a2z-dsa-java/
 │   ├── hashing/
 │   └── patterns/
 ├── 02-sorting/
-├── 03-arrays/
-│   ├── easy/
-│   ├── medium/
-│   └── hard/
+├── Arrays/
+│   ├── Easy/
+│   │   ├── README.md            # Striver A2Z indices for easy array problems
+│   │   ├── SecondLargestNumber/
+│   │   └── MoveZeroes/
+│   ├── Medium/
+│   │   ├── README.md            # Striver A2Z indices for medium array problems
+│   │   └── TwoSum/
+│   ├── CheckPrime/
+│   ├── FibanocciSeries/
+│   └── PalindromeNumber/
 ├── 04-binary-search/
 ├── 05-strings/
 ├── 06-linked-list/
@@ -344,9 +351,8 @@ Product companies rarely stop at DSA. Add these as you progress.
 git clone https://github.com/<your-username>/striver-a2z-dsa-java.git
 cd striver-a2z-dsa-java
 
-# Compile and run any solution
-javac 03-arrays/medium/P0001_TwoSum.java
-java -cp 03-arrays/medium P0001_TwoSum
+# Array problems are grouped by difficulty under Arrays/Easy and Arrays/Medium.
+# See each folder's README.md for its Striver A2Z index.
 ```
 
 **Requirements:** JDK 17+ (any recent LTS works).
